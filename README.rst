@@ -1,5 +1,4 @@
-.. image:: https://anchore.io/service/badges/image/f017354b717234ebfe1cf1c5d538ddc8618f3ab0d8c67e290cf37f578093d121
-    :target: https://anchore.io/image/dockerhub/anchore%2Fcli%3Alatest
+![](https://anchore.com/wp-content/uploads/2019/04/Anchore_Logo-300x95.png)
 
 
 Anchore
@@ -41,7 +40,7 @@ is the code you're looking for.
 
 Using Anchore Scanner via Docker
 ================================
-Anchore is available as a `Docker image <https://hub.docker.com/r/anchore/cli/>`_. 
+Anchore is available as a `Docker image <https://hub.docker.com/r/anchore/cli/>`_.
 
 1. ``docker pull anchore/cli``
 2. ``docker run -d -v /var/run/docker.sock:/var/run/docker.sock --name anchore anchore/cli:latest``
